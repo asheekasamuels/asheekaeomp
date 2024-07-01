@@ -1,24 +1,31 @@
 <template>
   <div class="container">
-    <section class="row" id= "home">
+    <section class="row" id= "landing">
+      <landingView/>
 
     </section>
     <section class="row" id= "about">
+      <aboutView/>
 
     </section>
     <section class="row" id= "resume">
+      <resumeView/>
 
     </section>
     <section class="row" id= "skills">
+      <skillsView/>
 
     </section>
     <section class="row" id= "projects">
+      <projectsView/>
 
     </section>
     <section class="row" id= "testimonials">
+      <testimonialsView/>
 
     </section>
-    <section class="row" id= "reach me">
+    <section class="row" id= "contact">
+      <contactView/>
 
     </section>
 

@@ -1,6 +1,7 @@
 <template>
   <NavBar></NavBar>
     <router-view/>
+    <Landing/>
     <About/>
     <Resume/>
     <Skills/>
@@ -16,6 +17,7 @@ import Footer from './components/Footer';
 import NavBar from './components/NavBar';
 import Spinner from './components/Spinner.vue';
 import About from './components/AboutView.vue';
+import Landing from './components/LandingView.vue';
 import Resume from './components/ResumeView.vue';
 import Contact from './components/ContactView.vue';
 import Projects from './components/ProjectsView.vue';
@@ -28,6 +30,7 @@ import Testimonials from './components/TestimonialsView.vue';
       Footer,
       Spinner,
       Resume,
+      Landing,
       About,
       Contact,
       Projects,
