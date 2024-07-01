@@ -13,3 +13,43 @@
     display: none;
 }
 
+/* About Page */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#heading {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.infoBlocks {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.leftSide {
+  flex: 1; 
+  padding-right: 20px; 
+}
+
+.rightSide {
+  flex: 1; 
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center; 
+}
+
+.pic {
+  max-width: 100%; 
+  height: auto;
+  border-radius: 80%; 
+}
+
+/* End of about page */
