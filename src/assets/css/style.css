@@ -51,6 +51,24 @@ a{
 /* End of custom variables */
 
 /* Landing Page */
+.home {
+  background-color: pink;
+}
+
+.landing {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+@media only screen and (max-width: 480px) {
+  .start {
+    width: 90%;
+  }
+}
 /* End of landing page */
 
 /* About Page */
@@ -69,7 +87,7 @@ a{
 .infoBlocks {
   display: flex;
   justify-content: space-between;
-  border: 1px solid white;
+  border: 1px solid black;
   margin-top: 20px;
   margin-bottom: 20px;
 }
